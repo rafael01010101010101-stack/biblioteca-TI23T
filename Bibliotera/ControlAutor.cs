@@ -1,0 +1,79 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Bibliotera
+{
+    class ControlAutor
+    {
+        DaoAutor autor;
+        public int opcao;
+        public ControlAutor() 
+        {
+            this.autor = new DaoAutor();//abrindo conexão com o banco
+        }//fim do construtor
+
+        public void MostrarMenu() 
+        {
+            Console.WriteLine("------MENU------\n\n"+
+                "\n0.Sair"                          +
+                "\n1.Cadastrar"                     +
+                "\n2.Consultar tudo"                +
+                "\n3.Consultar por código"          +
+                "\n4.Atualizar"                     +
+                "\n5. Excluir"                      +
+                "\nEscolha uma das opções acima:");
+            this.opcao = Convert.ToInt32(Console.ReadLine());
+        }//fim do menu
+
+        public void ExecutarOperacao() 
+        {
+            do
+            {
+                this.MostrarMenu();
+                switch (this.opcao) 
+                {
+                    case 0:
+                        Console.WriteLine("Obrigado!");
+                    break;
+                    case 1:
+                        Console.WriteLine("Cadastrar Autor");
+                        //formulário de cadastro
+                        Console.WriteLine("Informe o nome do autor: ");
+                        string nome = Console.ReadLine();
+
+                        Console.WriteLine("Informe o genero do autor: ");
+                        string genero = Console.ReadLine();
+
+                        Console.WriteLine("Informe o endereço do autor: ");
+                        string endereco = Console.ReadLine();
+
+                        //inserir esses dados no banco
+                        this.autor.Inserir(nome, genero, endereco);
+                    break;
+                    case 2:
+                        Console.WriteLine("Consultar tudo do autor");
+                        Console.WriteLine(this.autor.ConsultarTudo());
+                    break;
+                    case 3:
+                        //pedindo o código
+                        Console.WriteLine("Consultar por código - Autor");
+                        Console.WriteLine("Informe um código");
+                        int codigo = Convert.ToInt32(Console.ReadLine());
+
+                        //chamar o método
+                        Console.WriteLine(this.autor.ConsultarPorCodigo(codigo));
+                    break;
+                    case 4:
+                        Console.WriteLine("Excluir Autor");
+                    break;
+                    default:
+                        Console.WriteLine("Código informado é inválido!");
+                    break;
+                }
+            } while (this.opcao != 0);//fim do escolha
+        }//fim da executar operação
+    }//fim da classe
+}//fim do projeto
