@@ -130,7 +130,7 @@ namespace Bibliotera
                 //executar o comando
 
                 MySqlCommand sql = new MySqlCommand(query, this.conexao);
-                string resultado = "" + sql.ExecuteNonQuery();//comando da imserção no banco
+                string resultado = "" + sql.ExecuteNonQuery();//comando da inserção no banco
                 return $"Atualizado com sucesso!\n\n{resultado}";
             }
             catch (Exception erro) 

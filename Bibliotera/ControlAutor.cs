@@ -32,6 +32,7 @@ namespace Bibliotera
         {
             do
             {
+                this.autor = new DaoAutor();
                 this.MostrarMenu();
                 switch (this.opcao) 
                 {
@@ -67,7 +68,47 @@ namespace Bibliotera
                         Console.WriteLine(this.autor.ConsultarPorCodigo(codigo));
                     break;
                     case 4:
+                        Console.WriteLine("Autalizar Autor");
+                        Console.WriteLine("Informe o codigo do autor que deseja atualizar");
+                        codigo = Convert.ToInt32(Console.ReadLine());
+
+                        //Criação de menu de atualização
+                        Console.WriteLine("Escolha qual campo deseja atualizar: \n\n" +
+                        "\n1. Nome"+
+                        "\n2. Gênero"+
+                        "\n3. Endereço");
+                        int opcaoCampo = Convert.ToInt32(Console.ReadLine());
+                        string campo = "";
+
+                        //Escolha
+                        switch (opcaoCampo) 
+                        {
+                            case 1:
+                                campo = "nome";
+                            break;
+                            case 2:
+                                campo = "genero";
+                            break;
+                            case 3:
+                                campo = "endereco";
+                            break;
+                            default:
+                                Console.WriteLine("Não foi possivel atualizar! Escolha um campo valido");
+                            break;
+                        }//fim do escolha
+
+                        //pedir novo dado
+                        Console.WriteLine($"Informe o novo {campo}");
+                        string novoDado = Console.ReadLine();
+                        Console.WriteLine(this.autor.atualizar(codigo, campo, novoDado));
+                    break;
+                    case 5:
                         Console.WriteLine("Excluir Autor");
+                        //Solicitar codigo para exlusão
+                        Console.Write("Informe o codigo que deseja exluir");
+                        codigo = Convert.ToInt32(Console.ReadLine());
+
+                        Console.WriteLine(this.autor.deletar(codigo));
                     break;
                     default:
                         Console.WriteLine("Código informado é inválido!");
