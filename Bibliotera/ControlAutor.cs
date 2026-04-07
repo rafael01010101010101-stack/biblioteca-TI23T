@@ -24,6 +24,7 @@ namespace Bibliotera
                 "\n3.Consultar por código"          +
                 "\n4.Atualizar"                     +
                 "\n5. Excluir"                      +
+                "\n6. Cadastro"
                 "\nEscolha uma das opções acima:");
             this.opcao = Convert.ToInt32(Console.ReadLine());
         }//fim do menu
@@ -109,6 +110,9 @@ namespace Bibliotera
                         codigo = Convert.ToInt32(Console.ReadLine());
 
                         Console.WriteLine(this.autor.deletar(codigo));
+                    break;
+                    case 6:
+                        
                     break;
                     default:
                         Console.WriteLine("Código informado é inválido!");
