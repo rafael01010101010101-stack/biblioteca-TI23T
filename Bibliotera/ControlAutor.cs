@@ -11,7 +11,6 @@ namespace Bibliotera
     class ControlAutor
     {
         DaoAutor autor;
-        DaoAutor cliente;
         public int opcao;
         public ControlAutor() 
         {
@@ -27,7 +26,6 @@ namespace Bibliotera
                 "\n3.Consultar por código"          +
                 "\n4.Atualizar"                     +
                 "\n5.Excluir"                       +
-                "\n6.Cadastrar cliente"             +
                 "\nEscolha uma das opções acima:");
             this.opcao = Convert.ToInt32(Console.ReadLine());
         }//fim do menu
@@ -114,23 +112,6 @@ namespace Bibliotera
 
                         Console.WriteLine(this.autor.deletar(codigo));
                     break;
-                    case 6:
-                        Console.WriteLine("Cadastrar cliente: ");
-                        Console.WriteLine("Informe o nome: ");
-                        string nome1 = Console.ReadLine();
-                        Console.WriteLine("Informe o telefone: ");
-                        string telefone = Console.ReadLine();
-                        Console.WriteLine("Informe o endereco: ");
-                        string endereco1 = Console.ReadLine();
-                        Console.WriteLine("Informe a data de nascimento: ");
-                        DateTime dataNascimento = Convert.ToDateTime(Console.ReadLine());
-                        Console.WriteLine("Crie um login para o Cliente:");
-                        string login = Console.ReadLine();
-                        Console.WriteLine("Crie uma senha para o Cliente: ");
-                        string senha = Console.ReadLine();
-                        this.cliente = new Cliente();
-                        this.cliente.Cadastrar(nome1, telefone, endereco1, dataNascimento, login, senha);
-                        break;
                     default:
                         Console.WriteLine("Código informado é inválido!");
                     break;

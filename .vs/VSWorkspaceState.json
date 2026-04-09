@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Bibliotera"
   ],
-  "SelectedNode": "\\Bibliotera.sln",
+  "SelectedNode": "\\Bibliotera\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

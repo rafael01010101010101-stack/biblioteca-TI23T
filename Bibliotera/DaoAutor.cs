@@ -53,43 +53,6 @@ namespace Bibliotera
             }
         }//fim do inserir
 
-
-        public class cliente
-        {
-            public void Cadastrar(string nome1, string telefone, string endereco1, DateTime dataNascimento, string login, string senha)
-            {
-                try
-                {
-                    this.dados = $"('', '{nome1}', '{telefone}', '{endereco1}', '{dataNascimento}', '{login}', '{senha}')";
-                    this.comando = $"Insert into cliente(codigo, nome, endereco, dataNascimento, login, senha) values{this.dados}";
-                    //Inserir comando
-                    MySqlCommand sql = new MySqlCommand(this.comando, this.conexao);
-                    string resultado = "" + sql.ExecuteNonQuery();
-                    Console.WriteLine($"Inserido com Sucesso! \n\n{resultado}");
-                }
-                catch (Exception erro)
-                {
-                    Console.WriteLine($"Algo deu errado\n\n {erro}");
-                }
-            }//fim do inserir
-        }
-        public void Cadastrar(string nome1, string telefone, string endereco1, DateTime dataNascimento, string login, string senha)
-        {
-            try
-            {
-                this.dados = $"('', '{nome1}', '{telefone}', '{endereco1}', '{dataNascimento}', '{login}', '{senha}')";
-                this.comando = $"Insert into cliente(codigo, nome, endereco, dataNascimento, login, senha) values{this.dados}";
-                //Inserir comando
-                MySqlCommand sql = new MySqlCommand(this.comando, this.conexao);
-                string resultado = "" + sql.ExecuteNonQuery();
-                Console.WriteLine($"Inserido com Sucesso! \n\n{resultado}");
-            }
-            catch (Exception erro)
-            {
-                Console.WriteLine($"Algo deu errado\n\n {erro}");
-            }
-        }//fim do inserir
-
         public void PreencherVetor() 
         {
             string query = "select * from autor"; //mostrando os dados da tabela autor
