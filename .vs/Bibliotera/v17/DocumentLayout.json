@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\rafael.balmeida3\\source\\repos\\Bibliotera\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5DE7F1CD-EC8E-4422-859D-15D18C47ECCD}|Bibliotera\\Bibliotera.csproj|C:\\Users\\rafael.balmeida3\\source\\repos\\Bibliotera\\bibliotera\\controlautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DE7F1CD-EC8E-4422-859D-15D18C47ECCD}|Bibliotera\\Bibliotera.csproj|solutionrelative:bibliotera\\controlautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DE7F1CD-EC8E-4422-859D-15D18C47ECCD}|Bibliotera\\Bibliotera.csproj|c:\\users\\rafael.balmeida3\\source\\repos\\bibliotera\\bibliotera\\consultar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DE7F1CD-EC8E-4422-859D-15D18C47ECCD}|Bibliotera\\Bibliotera.csproj|solutionrelative:bibliotera\\consultar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DE7F1CD-EC8E-4422-859D-15D18C47ECCD}|Bibliotera\\Bibliotera.csproj|C:\\Users\\rafael.balmeida3\\source\\repos\\Bibliotera\\bibliotera\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DE7F1CD-EC8E-4422-859D-15D18C47ECCD}|Bibliotera\\Bibliotera.csproj|solutionrelative:bibliotera\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5DE7F1CD-EC8E-4422-859D-15D18C47ECCD}|Bibliotera\\Bibliotera.csproj|C:\\Users\\rafael.balmeida3\\source\\repos\\Bibliotera\\bibliotera\\daoautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5DE7F1CD-EC8E-4422-859D-15D18C47ECCD}|Bibliotera\\Bibliotera.csproj|solutionrelative:bibliotera\\daoautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DE7F1CD-EC8E-4422-859D-15D18C47ECCD}|Bibliotera\\Bibliotera.csproj|c:\\users\\rafael.balmeida3\\source\\repos\\bibliotera\\bibliotera\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DE7F1CD-EC8E-4422-859D-15D18C47ECCD}|Bibliotera\\Bibliotera.csproj|solutionrelative:bibliotera\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DE7F1CD-EC8E-4422-859D-15D18C47ECCD}|Bibliotera\\Bibliotera.csproj|c:\\users\\rafael.balmeida3\\source\\repos\\bibliotera\\bibliotera\\controlautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DE7F1CD-EC8E-4422-859D-15D18C47ECCD}|Bibliotera\\Bibliotera.csproj|solutionrelative:bibliotera\\controlautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DE7F1CD-EC8E-4422-859D-15D18C47ECCD}|Bibliotera\\Bibliotera.csproj|c:\\users\\rafael.balmeida3\\source\\repos\\bibliotera\\bibliotera\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5DE7F1CD-EC8E-4422-859D-15D18C47ECCD}|Bibliotera\\Bibliotera.csproj|solutionrelative:bibliotera\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DE7F1CD-EC8E-4422-859D-15D18C47ECCD}|Bibliotera\\Bibliotera.csproj|c:\\users\\rafael.balmeida3\\source\\repos\\bibliotera\\bibliotera\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DE7F1CD-EC8E-4422-859D-15D18C47ECCD}|Bibliotera\\Bibliotera.csproj|solutionrelative:bibliotera\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DE7F1CD-EC8E-4422-859D-15D18C47ECCD}|Bibliotera\\Bibliotera.csproj|c:\\users\\rafael.balmeida3\\source\\repos\\bibliotera\\bibliotera\\cadastrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5DE7F1CD-EC8E-4422-859D-15D18C47ECCD}|Bibliotera\\Bibliotera.csproj|solutionrelative:bibliotera\\cadastrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DE7F1CD-EC8E-4422-859D-15D18C47ECCD}|Bibliotera\\Bibliotera.csproj|c:\\users\\rafael.balmeida3\\source\\repos\\bibliotera\\bibliotera\\cadastrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DE7F1CD-EC8E-4422-859D-15D18C47ECCD}|Bibliotera\\Bibliotera.csproj|solutionrelative:bibliotera\\cadastrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DE7F1CD-EC8E-4422-859D-15D18C47ECCD}|Bibliotera\\Bibliotera.csproj|c:\\users\\rafael.balmeida3\\source\\repos\\bibliotera\\bibliotera\\consultar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5DE7F1CD-EC8E-4422-859D-15D18C47ECCD}|Bibliotera\\Bibliotera.csproj|solutionrelative:bibliotera\\consultar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,38 +51,113 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Consultar.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.balmeida3\\source\\repos\\Bibliotera\\Bibliotera\\Consultar.cs",
+              "RelativeDocumentMoniker": "Bibliotera\\Consultar.cs",
+              "ToolTip": "C:\\Users\\rafael.balmeida3\\source\\repos\\Bibliotera\\Bibliotera\\Consultar.cs",
+              "RelativeToolTip": "Bibliotera\\Consultar.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAvwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T19:33:29.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Consultar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rafael.balmeida3\\source\\repos\\Bibliotera\\Bibliotera\\Consultar.cs",
+              "RelativeDocumentMoniker": "Bibliotera\\Consultar.cs",
+              "ToolTip": "C:\\Users\\rafael.balmeida3\\source\\repos\\Bibliotera\\Bibliotera\\Consultar.cs [Design]",
+              "RelativeToolTip": "Bibliotera\\Consultar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T19:31:21.165Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cadastrar.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.balmeida3\\source\\repos\\Bibliotera\\Bibliotera\\Cadastrar.cs",
+              "RelativeDocumentMoniker": "Bibliotera\\Cadastrar.cs",
+              "ToolTip": "C:\\Users\\rafael.balmeida3\\source\\repos\\Bibliotera\\Bibliotera\\Cadastrar.cs",
+              "RelativeToolTip": "Bibliotera\\Cadastrar.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAwEYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T17:45:58.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cadastrar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rafael.balmeida3\\source\\repos\\Bibliotera\\Bibliotera\\Cadastrar.cs",
+              "RelativeDocumentMoniker": "Bibliotera\\Cadastrar.cs",
+              "ToolTip": "C:\\Users\\rafael.balmeida3\\source\\repos\\Bibliotera\\Bibliotera\\Cadastrar.cs [Design]",
+              "RelativeToolTip": "Bibliotera\\Cadastrar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T17:44:44.029Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.balmeida3\\source\\repos\\Bibliotera\\Bibliotera\\Menu.cs",
+              "RelativeDocumentMoniker": "Bibliotera\\Menu.cs",
+              "ToolTip": "C:\\Users\\rafael.balmeida3\\source\\repos\\Bibliotera\\Bibliotera\\Menu.cs",
+              "RelativeToolTip": "Bibliotera\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T17:38:44.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rafael.balmeida3\\source\\repos\\Bibliotera\\Bibliotera\\Menu.cs",
+              "RelativeDocumentMoniker": "Bibliotera\\Menu.cs",
+              "ToolTip": "C:\\Users\\rafael.balmeida3\\source\\repos\\Bibliotera\\Bibliotera\\Menu.cs [Design]",
+              "RelativeToolTip": "Bibliotera\\Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T17:00:03.094Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ControlAutor.cs",
               "DocumentMoniker": "C:\\Users\\rafael.balmeida3\\source\\repos\\Bibliotera\\Bibliotera\\ControlAutor.cs",
               "RelativeDocumentMoniker": "Bibliotera\\ControlAutor.cs",
               "ToolTip": "C:\\Users\\rafael.balmeida3\\source\\repos\\Bibliotera\\Bibliotera\\ControlAutor.cs",
               "RelativeToolTip": "Bibliotera\\ControlAutor.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAwwGkAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowGkAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-02T17:19:03.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DaoAutor.cs",
               "DocumentMoniker": "C:\\Users\\rafael.balmeida3\\source\\repos\\Bibliotera\\Bibliotera\\DaoAutor.cs",
               "RelativeDocumentMoniker": "Bibliotera\\DaoAutor.cs",
               "ToolTip": "C:\\Users\\rafael.balmeida3\\source\\repos\\Bibliotera\\Bibliotera\\DaoAutor.cs",
               "RelativeToolTip": "Bibliotera\\DaoAutor.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAIwIsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwFsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-02T16:59:31.077Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\rafael.balmeida3\\source\\repos\\Bibliotera\\Bibliotera\\Program.cs",
               "RelativeDocumentMoniker": "Bibliotera\\Program.cs",
               "ToolTip": "C:\\Users\\rafael.balmeida3\\source\\repos\\Bibliotera\\Bibliotera\\Program.cs",
               "RelativeToolTip": "Bibliotera\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-02T16:55:17.414Z",
               "EditorCaption": ""

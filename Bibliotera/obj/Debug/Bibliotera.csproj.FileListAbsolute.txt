@@ -37,3 +37,8 @@ C:\Users\rafael.balmeida3\source\repos\Bibliotera\Bibliotera\obj\Debug\Biblioter
 C:\Users\rafael.balmeida3\source\repos\Bibliotera\Bibliotera\obj\Debug\Bibliotera.exe
 C:\Users\rafael.balmeida3\source\repos\Bibliotera\Bibliotera\obj\Debug\Bibliotera.pdb
 C:\Users\rafael.balmeida3\source\repos\Bibliotera\Bibliotera\obj\Debug\Bibliotera.exe.config
+C:\Users\rafael.balmeida3\source\repos\Bibliotera\Bibliotera\obj\Debug\Bibliotera.Menu.resources
+C:\Users\rafael.balmeida3\source\repos\Bibliotera\Bibliotera\obj\Debug\Bibliotera.Properties.Resources.resources
+C:\Users\rafael.balmeida3\source\repos\Bibliotera\Bibliotera\obj\Debug\Bibliotera.csproj.GenerateResource.cache
+C:\Users\rafael.balmeida3\source\repos\Bibliotera\Bibliotera\obj\Debug\Bibliotera.Cadastrar.resources
+C:\Users\rafael.balmeida3\source\repos\Bibliotera\Bibliotera\obj\Debug\Bibliotera.Consultar.resources

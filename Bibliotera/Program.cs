@@ -3,15 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;//importando a biblioteca para usar o menu
 
 namespace Bibliotera
 {
     internal class Program
     {
-        static void Main(string[] args)
+        [STAThread]//definir ponto de entrada do aplicativo
+		static void Main(string[] args)
         {
-            ControlAutor controleAutor = new ControlAutor();
-            controleAutor.ExecutarOperacao();
-        }//fim do metodo main
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Menu());//chamando o menu
+		}//fim do metodo main
     }//fim da classe
 }//fim do projeto

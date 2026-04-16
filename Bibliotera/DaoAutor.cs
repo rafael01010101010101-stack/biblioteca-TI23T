@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;//importando a estrutura de tela
 
 namespace Bibliotera
 {
@@ -26,11 +27,11 @@ namespace Bibliotera
             try
             {
                 conexao.Open();//abrir a conexão
-                Console.WriteLine("Conectado com sucesso!");
+                MessageBox.Show("Conectado com sucesso!");
             }
             catch (Exception erro) 
             {
-                Console.WriteLine($"Algo deu errado!\n\n {erro}");
+				MessageBox.Show($"Algo deu errado!\n\n {erro}");
                 conexao.Close();//fecha conexão com o banco de dados
             }//fim do try_catch
         }//fim do construtor
@@ -45,11 +46,11 @@ namespace Bibliotera
                 //Inserir comando
                 MySqlCommand sql = new MySqlCommand(this.comando, this.conexao);
                 string resultado = "" + sql.ExecuteNonQuery();
-                Console.WriteLine($"Inserido com Sucesso! \n\n{resultado}");
+				MessageBox.Show($"Inserido com Sucesso! \n\n{resultado}");
             }
             catch (Exception erro) 
             {
-                Console.WriteLine($"Algo deu errado\n\n {erro}");
+                MessageBox.Show($"Algo deu errado\n\n {erro}");
             }
         }//fim do inserir
         public void PreencherVetor() 
