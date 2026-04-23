@@ -15,14 +15,15 @@ namespace Bibliotera
 		DaoAutor dao;
 		public Consultar()
 		{
-			ChamarMetodo(dataGridView1);
+			InitializeComponent();// inicializar os componentes da tela
 			this.dao = new DaoAutor();
+			ChamarMetodo(dataGridView1);
 		}
 
 		//chamar método
 		public void ChamarMetodo(DataGridView dataGrid) 
 		{
-			InitializeComponent();// inicializar os componentes da tela
+			
 			ConfigurarDataGrid(dataGrid);//configurar a estrutura da tabela
 			NomeColunas(dataGrid);// definir o nome das colunas
 			AdicionarDados(dataGrid);// adicionar os dados do banco de dados na tabela

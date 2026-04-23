@@ -42,3 +42,5 @@ C:\Users\rafael.balmeida3\source\repos\Bibliotera\Bibliotera\obj\Debug\Biblioter
 C:\Users\rafael.balmeida3\source\repos\Bibliotera\Bibliotera\obj\Debug\Bibliotera.csproj.GenerateResource.cache
 C:\Users\rafael.balmeida3\source\repos\Bibliotera\Bibliotera\obj\Debug\Bibliotera.Cadastrar.resources
 C:\Users\rafael.balmeida3\source\repos\Bibliotera\Bibliotera\obj\Debug\Bibliotera.Consultar.resources
+C:\Users\rafael.balmeida3\source\repos\Bibliotera\Bibliotera\obj\Debug\Bibliotera.atualizar.resources
+C:\Users\rafael.balmeida3\source\repos\Bibliotera\Bibliotera\obj\Debug\Bibliotera.excluir.resources

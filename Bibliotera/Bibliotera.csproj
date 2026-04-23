@@ -97,6 +97,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="atualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="atualizar.Designer.cs">
+      <DependentUpon>atualizar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cadastrar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,12 @@
     </Compile>
     <Compile Include="ControlAutor.cs" />
     <Compile Include="DaoAutor.cs" />
+    <Compile Include="excluir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="excluir.Designer.cs">
+      <DependentUpon>excluir.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,11 +142,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="atualizar.resx">
+      <DependentUpon>atualizar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cadastrar.resx">
       <DependentUpon>Cadastrar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Consultar.resx">
       <DependentUpon>Consultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="excluir.resx">
+      <DependentUpon>excluir.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>

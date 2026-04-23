@@ -27,7 +27,6 @@ namespace Bibliotera
             try
             {
                 conexao.Open();//abrir a conexão
-                MessageBox.Show("Conectado com sucesso!");
             }
             catch (Exception erro) 
             {
@@ -123,7 +122,49 @@ namespace Bibliotera
             return "Código informado não existe";
         }//fim do método consultarPorCodigo
 
-        public string atualizar(int codigo, string campo, string novoDado) 
+		public string ConsultarNome(int codigo)
+		{
+			PreencherVetor();//preencher todos oos dados do vetor
+
+			for (int i = 0; i < this.contar; i++)
+			{
+				if (this.codigo[i] == codigo)
+				{
+					return this.nome[i];
+				}//fim do if
+			}//fim do for
+			return "Código informado não existe";
+		}//fim do método consultarPorCodigo
+
+		public string ConsultarGenero(int codigo)
+		{
+			PreencherVetor();//preencher todos oos dados do vetor
+
+			for (int i = 0; i < this.contar; i++)
+			{
+				if (this.codigo[i] == codigo)
+				{
+					return this.genero[i];
+				}//fim do if
+			}//fim do for
+			return "Código informado não existe";
+		}//fim do método consultarPorCodigo
+
+		public string ConsultarEndereco(int codigo)
+		{
+			PreencherVetor();//preencher todos oos dados do vetor
+
+			for (int i = 0; i < this.contar; i++)
+			{
+				if (this.codigo[i] == codigo)
+				{
+					return this.endereco[i];
+				}//fim do if
+			}//fim do for
+			return "Código informado não existe";
+		}//fim do método consultarPorCodigo
+
+		public string atualizar(int codigo, string campo, string novoDado) 
         {
             try
             {

@@ -14,6 +14,9 @@ namespace Bibliotera
 	{
 		Cadastrar cad;
 		Consultar con;
+		atualizar atu;
+		excluir exc;
+
 		public Menu()
 		{
 			InitializeComponent();
@@ -37,5 +40,19 @@ namespace Bibliotera
 		{
 
 		}//BEM VINDO NO TOPO
+
+		private void button3_Click(object sender, EventArgs e)
+		{
+			//Atualizar
+			atu = new atualizar();
+			atu.ShowDialog();
+		}
+
+		private void button4_Click(object sender, EventArgs e)
+		{
+			//Excluir
+			exc = new excluir();
+			exc.ShowDialog();
+		}
 	}
 }
